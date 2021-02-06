@@ -1,0 +1,175 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prism.css">
+    <link href="themes/prism.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="./fav.png" type="image/x-icon">
+    <title>HTML Code Snippets</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./htmlnewlogo.jpg" alt="snippets">
+        </div>
+        <div class="nav-heading">
+            <h2>HTML Cheatsheet</h2>
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+            <li>HTML Basic Structure
+                <pre class="language-html"><code>
+&lthtml lang="en"&gt
+&lthead&gt
+    &ltmeta charset="UTF-8"&gt
+    &ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt
+    &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+    &lttitle&gtDocument&lt/title&gt
+&lt/head&gt
+&ltbody&gt
+
+&lt/body&gt
+&lt/html&gt
+</code></pre>
+            </li>
+            <li>HTML Headings
+                <pre class="language-html">
+                    <code>
+&lth1&gtHeading 1&lt/h1&gt
+&lth2&gtHeading 2&lt/h2&gt
+&lth3&gtHeading 3&lt/h3&gt
+&lth4&gtHeading 4&lt/h4&gt
+&lth5&gtHeading 5&lt/h5&gt
+&lth6&gtHeading 6&lt/h6&gt
+                   </code>
+                </pre>
+            </li>
+            <li>HTML Paragraphs
+                <pre class="language-html">
+                    <code>
+&ltp&gtThis is a paragraph.&lt/p&gt
+&ltp&gtThis is another paragraph.&lt/p&gt</code></pre>
+            </li>
+            <li>HTML Formatting Elements
+                <pre class="language-html">
+                    <code>
+&ltb&gt  Bold text &lt/b&gt
+&ltstrong&gt  Important text &lt/strong&gt
+&lti&gt  Italic text &lt/i&gt
+&ltem&gt  Emphasized text &lt/em&gt
+&ltmark&gt  Marked text &lt/mark&gt
+&ltsmall&gt  Smaller text &lt/small&gt
+&ltdel&gt  Deleted text &lt/del&gt
+&ltins&gt  Inserted text &lt/ins&gt
+&ltsub&gt  Subscript text &lt/sub&gt
+&ltsup&gt  Superscript text &lt/sup&gt
+                    </code>
+                </pre>
+            </li>
+            <li>HTML Quotations
+                <pre class="language-html">
+                    <code>
+&ltblockquote&gtLorem ipsum dolor, sit amet consectetur 
+adipisicing elit. Ex, quaerat?&lt/blockquote&gt
+
+&ltq&gtLorem ipsum dolor sit amet consectetur 
+adipisicing elit. Alias, cupiditate.&lt/q&gt
+
+&ltabbr&gtLorem ipsum dolor sit 
+amet consectetur, adipisicing elit. Aliquam, nesciunt!&lt/abbr&gt
+
+&ltaddress&gtAkshya Nagar 1st Block 1st Cross, 
+Rammurthy nagar, Bangalore-560016&lt/address&gt
+
+&ltcite&gtLorem ipsum dolor sit, amet consectetur 
+adipisicing elit. Architecto, libero!&lt/cite&gt
+
+&ltbdo&gtLorem ipsum dolor sit amet consectetur 
+adipisicing elit. Tempore, voluptas?&lt/bdo&gt</code>
+                </pre>
+            </li>
+            <li>HTML Comments
+                <pre class="language-html"><code>&lt!-- Write your comments here --&gt</code></pre>
+            </li>
+            <li>HTML Colors
+                <pre class="language-html"><code>&lth1 style="background-color:DodgerBlue;"&gtHello World&lt/h1&gt
+&ltp style="background-color:Tomato;"&gtLorem ipsum...&lt/p&gt</code></pre>
+            </li>
+            <li>HTML Links
+                <pre class="language-html"><code>&lta href="url"&gtlink text&lt/a&gt
+&lta href="https://www.w3schools.com/" target="_blank"&gtuse target="balnk" 
+open the linked document in a new browser window or tab&lt/a&gt</code></pre>
+            </li>
+            <li>HTML Images
+                <pre class="language-html"><code>&ltimg src="url" alt="alternatetext"&gt</code></pre>
+            </li>
+            <li>HTML Tables
+                <pre class="language-html"><code>
+    &lttable&gt
+    &lttr&gt
+      &ltth&gtFirstname&lt/th&gt
+      &ltth&gtLastname&lt/th&gt
+      &ltth&gtAge&lt/th&gt
+    &lt/tr&gt
+    &lttr&gt
+      &lttd&gtJill&lt/td&gt
+      &lttd&gtSmith&lt/td&gt
+      &lttd&gt50&lt/td&gt
+    &lt/tr&gt
+    &lttr&gt
+      &lttd&gtEve&lt/td&gt
+      &lttd&gtJackson&lt/td&gt
+      &lttd&gt94&lt/td&gt
+    &lt/tr&gt
+  &lt/table&gt</code></pre>
+            </li>
+            <li>HTML Lists
+                <pre class="language-html"><code>Unordered HTML List
+&ltul&gt
+&ltli&gtCoffee&lt/li&gt
+&ltli&gtTea&lt/li&gt
+&ltli&gtMilk&lt/li&gt
+&lt/ul&gt
+                    </code>
+                    <code>
+Ordered HTML List
+&ltol&gt
+&ltli&gtCoffee&lt/li&gt
+&ltli&gtTea&lt/li&gt
+&ltli&gtMilk&lt/li&gt
+&lt/ol&gt</code></pre>
+            </li>
+            <li>HTML Block and Inline Elements
+                <pre class="language-html">
+                    <code>
+Block-level Elements
+&ltdiv&gtHello World&lt/div&gt
+                    </code>
+                    <code>
+Inline Elements
+&ltp&gtThis is an inline span &ltspan style="border: 1px solid black"&gtHello World&lt/span&gt element inside a paragraph.&lt/p&gt
+                    </code>
+                </pre>
+            </li>
+            <li>HTML Forms
+                <pre class="language-html">
+                    <code>
+&ltform&gt
+&ltlabel for="fname"&gtFirst name:&lt/label&gt&ltbr&gt
+&ltinput type="text" id="fname" name="fname"&gt&ltbr&gt
+&ltlabel for="lname"&gtLast name:&lt/label&gt&ltbr&gt
+&ltinput type="text" id="lname" name="lname"&gt
+&lt/form&gt</code>
+               </pre>
+            </li>
+        </ol>
+    </div>
+    <script src="prism.js"></script>
+</body>
+
+</html>

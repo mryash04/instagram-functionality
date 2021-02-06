@@ -10,4 +10,4 @@ light.addEventListener("click", () => {
 dark.addEventListener("click", () => {
     body.classList.add("dark");
     body.classList.remove("light");
-})
+});
